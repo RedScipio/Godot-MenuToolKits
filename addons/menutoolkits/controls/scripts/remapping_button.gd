@@ -1,5 +1,5 @@
 @tool
-class_name InputMappingButton extends Button
+class_name RemappingButton extends Button
 
 func _enter_tree():
 	pressed.connect(clicked)
